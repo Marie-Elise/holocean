@@ -9,6 +9,7 @@ server.listen(process.env.PORT || 8000);
 
 app.use("/css", static(__dirname + '/css'));
 app.use("/js", static(__dirname + '/js'));
+app.use("/assets/videos", static(__dirname + '/assets/videos'));
 
 // Index route
 app.get('/', function (req, res) {
@@ -25,8 +26,9 @@ app.get('/', function (req, res) {
 
 // Dynamic page route
 app.get('/:id', function( req, res ) {
-    res.sendFile(__dirname + req.params.id + '.html');
+    res.sendFile(__dirname + '/'+ req.params.id + '.html');
 });
+
 
 // Socket IO
 io.on('connection', function (socket) {
