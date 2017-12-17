@@ -3,10 +3,10 @@ console.log("kjh");
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFlaGRkIiwiYSI6ImNqYjJvdWQ3ZDhrb3gyeWp1MWhoZzVqamIifQ.640_SxF9gWDY14tifRjvkw';
 var map = new mapboxgl.Map({
 container: 'map',
-style: 'mapbox://styles/maehdd/cjb9e6mp95b1p2rnra4g94hlp'
+style: 'mapbox://styles/maehdd/cjbayn0st6rtn2rpmgo89cp2x'
 });
 
-// Add icon click 
+/*Add icon click 
 map.on('load', function () {
     // Add a layer showing the places.
     map.addLayer({
@@ -72,4 +72,4 @@ map.on('load', function () {
     map.on('mouseleave', 'places', function () {
         map.getCanvas().style.cursor = '';
     });
-});
+});*/
