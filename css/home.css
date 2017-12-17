@@ -1,46 +1,41 @@
 body{
     background-image: linear-gradient(blue, black);
-    /* Obligatoire si on veut "voir" le dégradé */
 }
-
 .home{
     margin-top: 50px;
 }
-
 .title-home{
     font-family: 'Open Sans', sans-serif;
     font-size: 8em;
     color: #FFFFFF;
 }
-
 .decouverte{
     margin-top: 40px;
 }
-
 .title-decouverte{
     font-family: 'Baskerville', sans-serif;
     font-size: 3em;
     color: #FFFFFF;
 }
-
+.title-trait{
+    margin-right: 40px;
+}
 .title-demarche{
     margin-top: 90px;
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     font-size: 1.5em;
 }
-
 .text-demarche{
     font-family: 'Open Sans', sans-serif;
+    margin-left: 140px;
     color: #FFFFFF;
     font-size: 1.1em;
     line-Height: 2.5;
 }
-
 a{
     text-decoration: none;
 }
-
 .button-decouverte{
     border: none;
     color: white;
@@ -48,11 +43,86 @@ a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 10px;
     margin-left: 300px;
 }
-
+a{
+    color: #FFFFFF;
+}
 .fleche-home{
     margin-left: 300px;
 }
+
+/* Bubbles */
+.bubbles {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: .50;
+    width: 40px;
+    height: 40px;
+    animation: up 4s infinite;
+}
+.bubble-2 {
+    left: 350px;
+    animation: up 2s infinite;
+}
+.bubble-3 {
+    left: 750px;
+    opacity: .30;
+    animation: up 5s infinite;
+} 
+.bubble-4 {
+    left: 1150px;
+    animation: up 6s infinite;
+} 
+.bubble-5 {
+    left: 50px;
+    animation: up 5s infinite;
+}
+.bubble-6 {
+    left: 300px;
+    opacity: .30;
+    animation: up 3s infinite;
+}
+.bubble-7 {
+    left: 670px;
+    animation: up 4s infinite;
+}
+.bubble-8 {
+    left: 1050px;
+    opacity: .30;
+    animation: up 3s infinite;
+}
+  
+/* Swim Animation */
+@keyframes swim {
+    0% {
+      transform: translateY(-50px) translateX(0) rotate(30deg);
+    }
+    25% { 
+      transform: translateY(50px) translateX(250px) rotate(20deg);
+    }
+    50% {
+      transform: translateY(100px) translateX(500px);
+    }
+    75% {
+      transform: translateY(50px) translateX(850px) rotate(-20deg);
+    }
+    100% {
+      transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+    }
+} 
+/* Bubbles Animation */
+@keyframes up {
+    100% {
+      transform: translateY(-800px);
+    }
+}
+  
+  
+  

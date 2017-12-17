@@ -5,18 +5,31 @@
     <title>Holorium</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <!-- style -->
-    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/bubble.scss">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 
-<div id='map'></div>
- 
+
+
+
     <body>
+      
+      <div class="bubbles bubble-1"></div>
+      <div class="bubbles bubble-5"></div>
+      <div class="bubbles bubble-2"></div>
+      <div class="bubbles bubble-6"></div>
+      <div class="bubbles bubble-3"></div>
+      <div class="bubbles bubble-7"></div>
+      <div class="bubbles bubble-4"></div>
+      <div class="bubbles bubble-8"></div>
+
+
+
         <div class="container home">
             <div class="col-md-6 col-xs-12 projet">
                 <h1 class="title-home">Projet</h1>
@@ -41,9 +54,22 @@
             
             <div class="col-md-6 col-xs-12 decouverte">
                 <h2 class="title-decouverte">Découvrez des milliers d'éspèces à travers une expérience immmersive</h2>
-                <h3 class="title-demarche">Notre démarche</h3>
+                <h3 class="title-demarche">
+                    <svg class="title-trait" width="89" height="1" viewBox="0 0 89 1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>Line Copy 2</title>
+                    <desc>Created using Figma</desc>
+                    <g id="Canvas" transform="translate(-7163 -653)">
+                    <g id="Line Copy 2">
+                    <use xlink:href="#path0_stroke" transform="translate(7164 652)" fill="#FFFFFF"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <path id="path0_stroke" d="M 86.5929 2L 87.0929 2L 87.0929 1L 86.5929 1L 86.5929 2ZM 0.479384 1L -0.0206164 1L -0.0206164 2L 0.479384 2L 0.479384 1ZM 86.5929 1L 0.479384 1L 0.479384 2L 86.5929 2L 86.5929 1Z"/>
+                    </defs>
+                    </svg>
+                       Notre démarche</h3>
                 <p class="text-demarche">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="button-decouverte"><a href="map">DECOUVRIR    
+                <div class="button-decouverte"><a href="map">   
                 <svg class="fleche-home" width="62" height="22" viewBox="0 0 62 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Welcome</title>
                     <desc>Created using Figma</desc>
@@ -60,13 +86,12 @@
                     <path id="path1_stroke" d="M 11.0515 11.0515L 11.4051 11.4051L 11.7586 11.0515L 11.4051 10.698L 11.0515 11.0515ZM -0.353553 0.353553L 10.698 11.4051L 11.4051 10.698L 0.353553 -0.353553L -0.353553 0.353553ZM 10.698 10.698L 1.16685 20.2291L 1.87396 20.9362L 11.4051 11.4051L 10.698 10.698Z"/>
                     </defs>
                     </svg>
-                </a></div>
+                    DECOUVRIR </a></div>
             </div>
         </div>
 
         <script src="js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/map.js"></script>
         <script src="js/socketio.js"></script>
         <script src="/socket.io/socket.io.js"></script>
         <script>
