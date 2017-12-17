@@ -19,10 +19,14 @@
         <img id="loadingImage" src="assets/videos/poisson.gif"/>
     </div>
 
-    
 </body>
+<script>
+socket.on('showPoisson', function() {
+    poissonEl.classList.add('show')
+})</script>
 <script src="js/main.js"></script>
 <script src="js/map.js"></script>
 <script src="js/jquery.min.js"></script>
+<script src="js/socketio.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 </html>
