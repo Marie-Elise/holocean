@@ -9,6 +9,7 @@ server.listen(process.env.PORT || 8000);
 // add 
 app.use("/css", static(__dirname + '/css'));
 app.use("/js", static(__dirname + '/js'));
+app.use("/assets", static(__dirname + '/assets'));
 
 
 // Index route
