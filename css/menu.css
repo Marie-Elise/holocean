@@ -1,3 +1,74 @@
 .poisson{
     z-index: 100000;
 }
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/* Navigation menu */
+nav{
+  width: 360px;
+  height: 100%;
+  background: #222;
+  position: fixed;
+  top: 0; left: -305px;
+  z-index: 2;
+  transition: left .7s;
+  -webkit-transition: left .7s;
+  overflow-y: scroll;
+}
+nav:hover{
+  left: 0;
+}
+nav:hover ~ #content{
+  opacity: .3;
+}
+nav a, nav a:hover{
+  text-decoration: none;
+}
+/* Navigation  -- Icon */
+nav .icon{
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin: 20px 16px 0 0;
+  font-size: 36px;
+  text-align: center;
+  line-height: 32px;
+  color: white;
+  transition: opacity .7s;
+  -webkit-transition: opacity .7s;
+}
+nav:hover .icon{
+  opacity: 0;
+}
+/* Navigation -- Header */
+nav header{
+  margin: 40px 20px 30px;
+}
+nav header a{
+  font-size: 2.7em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgba(240,240,240,.7);
+}
+nav header a:hover{
+  color: #e74c3c;
+}
+
+/* Navigation -- Links */
+nav ul{
+  padding-left: 0;
+  list-style: none;
+}
+nav li a{
+  display: block;
+  border-left: 3px solid transparent;
+  padding: 16px 20px;
+  font-weight: 600;
+      color: rgba(200,200,200,.5);
+}
+nav li a:hover{
+  background: #1A237E;border-radius:5px;
+  border-color: #1A237E;
+  color: #fff;
+}
+
