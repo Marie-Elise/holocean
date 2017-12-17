@@ -30,15 +30,16 @@ app.get('/:id', function( req, res ) {
     res.sendFile(__dirname + '/'+ req.params.id + '.html');
 });
 
-
-
-
 // Socket IO
 io.on('connection', function (socket) {
     // Create a room to broadcast to
+    console.log('hello')
     socket.join('main');
     socket.on('statechange', function (data) {
         // Broadcast changes to all clients in room
         socket.to('main').emit('urlchange', { url : data.url });
     });
+    socket.on('showPoisson', function() {
+        socket.broadcast.emit('showPoisson');
+    })
 });

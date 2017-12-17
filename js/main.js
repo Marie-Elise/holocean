@@ -1,3 +1,15 @@
+var socket = io();
+
+function showPoisson() {
+    socket.emit('showPoisson')
+    console.log('emitted')
+}
+
+socket.on('showPoisson', function() {
+    console.log('received emitted event')
+    FunctionPoisson()
+})
+
 function FunctionPoisson() {
     var x = document.getElementById("poissonUn");
     if (x.style.display === "none") {
