@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(blue, black);
+    height: 970px;
+}
+.title-mespoissons{
+    color: #FFFFFF;
+}
+.trait-title{
+    margin-right: 30px;
+}
+.title-poisson{
+    text-align: center;
+}
+.title-ocean{
+    text-align: center;
+}
+.svg-poisson{
+    text-align: center;
+}

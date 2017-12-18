@@ -1,5 +1,6 @@
 var socket = io();
 
+//function showPoisson
 function showPoisson() {
     socket.emit('showPoisson')
     console.log('emitted')
@@ -19,7 +20,7 @@ function FunctionPoisson() {
     }
 }
 
-
+//function showPoissonDeux
 function showPoissonDeux() {
     socket.emit('showPoissonDeux')
     console.log('emitted')
