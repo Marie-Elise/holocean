@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(blue, black);
+    height: 1000px;
 }
 .home{
     margin-top: 50px;
@@ -37,21 +38,35 @@ a{
     text-decoration: none;
 }
 .button-decouverte{
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    margin-left: 400px;
+    border: 1px solid darkblue;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: darkblue;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 300px;
+    text-align: center;
 }
+
+.button-decouverte:hover {
+    background: darkblue;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #darkblue;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+  }
+
+
+
 a{
     color: #FFFFFF;
 }
 .fleche-home{
-    margin-left: 300px;
+    margin-left: 20px;
 }
 
 /* Bubbles */
