@@ -24,6 +24,11 @@ body{
 }
 .poisson-cinq{
     position: fixed;
-    margin-left: 1000px;
+    margin-left: 100px;
     margin-top: 200px; 
+}
+.poisson-six{
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: 400px; 
 }
