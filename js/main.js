@@ -59,3 +59,23 @@ function FunctionPoissonTrois() {
         x.style.display = "none";
     }
 }
+
+//function showPoissonQuatre
+function showPoissonQuatre() {
+    socket.emit('showPoissonQuatre')
+    console.log('emitted')
+}
+
+socket.on('showPoissonQuatre', function() {
+    console.log('received emitted event')
+    FunctionPoissonQuatre()
+})
+
+function FunctionPoissonQuatre() {
+    var x = document.getElementById("poissonQuatre");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

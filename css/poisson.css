@@ -2,17 +2,23 @@ body{
     background: #000000;
 }
 .poisson-un{
-    position: left;
-    margin-top: -70px;
-    margin-left: -500px;
-    z-index: 1000;
+    position: fixed;
+    margin-left: 600px;
+    margin-top: 500px;
 }
 .poisson-deux{
-    position: absolute;
-    position: left;
-    margin-top: -500px;
-    z-index: -1000;
+    position: fixed;
+    width: 25%;
+    margin-left: 400px;
+    margin-top: 500px;
 }
 .poisson-trois{
-
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 500px;
+}
+.poisson-quatre{
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: 500px;
 }

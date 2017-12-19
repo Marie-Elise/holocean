@@ -38,29 +38,29 @@ a{
     text-decoration: none;
 }
 .button-decouverte{
-    margin-left: 400px;
+    margin: 20px;
+    margin-top: 25px;
     border: 1px solid darkblue;
-    padding: 10px 15px;
+    padding: 10px 25px;
+    border-radius: 100px;
     font-size: 16px;
+    text-align: center;
     background: darkblue;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     -webkit-transform: scale(1,1);
     transform: scale(1,1);
     text-decoration: none;
-    text-align: center;
+    display: inline-block;
 }
-
 .button-decouverte:hover {
     background: darkblue;
     color: #fff;
     cursor: pointer;
     border: 1px solid #darkblue;
-    -webkit-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
-  }
-
-
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
 
 a{
     color: #FFFFFF;
