@@ -1,19 +1,80 @@
 body{
     background-image: linear-gradient(blue, black);
-    height: 970px;
+    height: 1200px;
 }
 .title-mespoissons{
     color: #FFFFFF;
+    margin-top: 50px;
 }
 .trait-title{
     margin-right: 30px;
 }
+.mespoissons-poissons{
+    margin-top: 50px;
+}
 .title-poisson{
     text-align: center;
+    color: #FFFFFF;
 }
 .title-ocean{
     text-align: center;
+    color: #FFFFFF;
 }
 .svg-poisson{
     text-align: center;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* button poisson */
+.button-poisson{
+    margin-top: 25px;
+    border: 1px solid darkblue;
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-size: 16px;
+    text-align: center;
+    background: darkblue;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.button-poisson:hover {
+    background: darkblue;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #darkblue;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+/* button vendre */
+.button-vendre{
+    margin: 20px;
+    margin-top: 25px;
+    border: 1px solid darkblue;
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-size: 16px;
+    text-align: center;
+    background: darkblue;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.button-vendre:hover {
+    background: darkblue;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #darkblue;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
 }
