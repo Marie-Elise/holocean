@@ -4950,7 +4950,7 @@ small {
 .tabs .tab a:hover,
 .tabs .tab a.active {
     background-color: transparent;
-    color: rgba(24, 103, 194, .81);
+    color: #006DF0;
 }
 
 .tabs .tab.disabled a,
@@ -4963,7 +4963,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: rgba(24, 103, 194, .81);
+    background-color: #006DF0;
     will-change: left, right
 }
 
