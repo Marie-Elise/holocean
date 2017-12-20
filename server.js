@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
         res.sendFile(__dirname + '/poissons.html');
     } else {
         // Send desktop to the main site 
-        res.sendFile(__dirname + '/connection.html');
+        res.sendFile(__dirname + '/index.html');
     }
 });
 
