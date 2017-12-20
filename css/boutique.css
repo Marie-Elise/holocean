@@ -1,18 +1,21 @@
 body{
-    background-image: linear-gradient(blue, black);
-    height: 1200px;
-}
-
-.title-boutique{
-    color: #FFFFFF;
-    margin-top: 50px;
-}
-.trait-title{
-    margin-right: 30px;
+    background: #FFFFFF;
 }
 a{
-    color: #FFFFFF;
     text-decoration: none;
+}
+.toolbar{
+    height: 70px;
+}
+.title-aquarium{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 4px;
+    color: rgba(24, 103, 194, .81);
+}
+.logo-aquarium{
+    width: 35%;
+    margin-top: 10px;
 }
 .button-poisson{
     margin: 20px;

@@ -1,11 +1,25 @@
 a{
     text-decoration: none;
 }
+.home{
+    overflow: auto;
+}
+.toolbar{
+    height: 70px;
+}
 .title-aquarium{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
     font-size: 20px;
+    margin-top: 4px;
+    color: rgba(24, 103, 194, .81);
+}
+.logo-aquarium{
+    width: 35%;
+    margin-top: 10px;
+}
+.search{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*footer menu*/
 .footer-menu {

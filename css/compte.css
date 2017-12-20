@@ -1,0 +1,48 @@
+body {
+    background: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+.tabs .tab a{
+    color: #000000;
+}
+.tabs .tab a:hover{
+    color: rgba(24, 103, 194, .81);
+
+}
+.star-blue{
+    width: 5%;
+}
+.left-arrow{
+    margin-top: 20px
+}
+  
+/* Profile sidebar */
+.profile-userpic svg {
+    width: 50%;
+    height: 50%;
+    margin-top: -30px;
+}
+.profile-usertitle {
+    text-align: center;
+    margin-top: 15px;
+}
+  
+.profile-usertitle-name {
+    color: rgba(24, 103, 194, .81);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+  
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+  

@@ -57,5 +57,8 @@ io.on('connection', function (socket) {
     socket.on('showPoissonSix', function() {
         socket.broadcast.emit('showPoissonSix');
     })
+    socket.on('showPoissonSept', function() {
+        socket.broadcast.emit('showPoissonSept');
+    })
 });
 

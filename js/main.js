@@ -107,3 +107,21 @@ function FunctionPoissonSix() {
         x.style.display = "none";
     }
 }
+
+//function showPoissonSept
+function showPoissonSept() {
+    socket.emit('showPoissonSept()')
+    console.log('emitted')
+}
+socket.on('showPoissonSept()', function() {
+    console.log('received emitted event')
+    FunctionPoissonSept()
+})
+function FunctionPoissonSept() {
+    var x = document.getElementById("poissonSept");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
