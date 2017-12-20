@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Holorium</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- style -->
+    <link rel="stylesheet" href="css/connection.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/bubble.scss">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body class="connection">
+
+    <!-- effet bubbles-->
+    <div class="bubbles bubble-1"></div>
+    <div class="bubbles bubble-5"></div>
+    <div class="bubbles bubble-2"></div>
+    <div class="bubbles bubble-6"></div>
+    <div class="bubbles bubble-3"></div>
+    <div class="bubbles bubble-7"></div>
+    <div class="bubbles bubble-4"></div>
+    <div class="bubbles bubble-8"></div>
+    
+    <!-- container-->
+    <div class="container home">
+        <div class="col-xs-12 text-center">
+            <svg class="logo-connection" id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211.25 210.24"><defs><style>.cls-1{fill:#fff;stroke:#fff;stroke-miterlimit:10;stroke-width:0.75px;}</style></defs><title>logo H</title><path class="cls-1" d="M380.15,135.39a81.41,81.41,0,0,0-20.92,8.21c-94.57,53.83-56.72,225.1,85.64,192.7l-3.68-13c-106.83,29-154-95.52-94.12-151.22q3-2.82,5.91-5.81c48.78-50.81,163.37-13.85,149.33,87.13-10.38,74.7-89.83,70-64.32-23.17l35.52-3.46.76-14.57-33.5,4.17c2-19.14,8.05-46.59,8.05-46.59l-14.1.76c-6,21.9-8.83,48.42-8.83,48.42l-25.71,1.86c0-3.1,8.78-48.46,8.78-48.46l-13.33,1.44s-7.73,33.71-9.21,49.06l-51.35,6.78-2.65,14.46,3.94-.21a24.13,24.13,0,0,1,10.53,1.74c8.63,3.52,24.7,12,30.87,28.11a19.9,19.9,0,0,1,1.29,7.12v10.84h15.37s-1.46-37.1,3.67-56.38L423,231.64c-10.14,50.2,4.89,96.08,47.71,83.68,18.14-5.25,31.67-21.89,39.3-39.16C536.77,215.44,494.17,107.42,380.15,135.39Zm2,121.68c-1.53-3-12.83-16.36-19.31-17.15l21.11-2.4Z" transform="translate(-306.85 -130.48)"/></svg>
+        </div>
+
+        <div class="col-xs-12 text-center form-connection">
+            <form role="form" name="form" action="" method="post">
+                <div class="form-group col-xs-12">
+                     <input type="email" name="inputEmail" class="form-control rounded" id="exampleInputEmail1" placeholder="Adresse email">
+                </div>
+                <div class="form-group col-xs-12">
+                     <input type="password" name="inputPassword" class="form-control rounded" id="exampleInputPassword1" placeholder="Mot de passe">
+                </div>
+                 <div class="form-group">
+                    <a>Mot de passe oublié ?</a>
+                </div>
+                <div class="connection-button">
+                        <a href="aquarium">Confirmer</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-xs-12 connection-nouveau">
+        <h5><a>Vous êtes nouveau ? Inscrivez-vous.</a></h5>
+    </div>
+
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socketio.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+.title-aquarium{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/*footer menu*/
+.footer-menu {
+	margin: 0 auto;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0px;
+    background-color: #304FFE;
+}
+.icon-aquarium{
+    width: 65%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    text-decoration: none;
+    display: inline-block;
+}
+.icon-aquarium:hover{
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3);
+}
+.icon-collection{
+    width: 50%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    text-decoration: none;
+    display: inline-block;
+}
+.icon-collection:hover{
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3);
+}
+.icon-boutique{
+    width: 65%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    text-decoration: none;
+    display: inline-block;
+}
+.icon-boutique:hover{
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3;
+}
+
