@@ -1,33 +1,41 @@
 body{
     background: #000000;
 }
+/*poisson UN*/
 .poisson-un{
     position: fixed;
-    margin-left: 600px;
-    margin-top: 600px;
+    margin-left: 300px;
+    margin-top: 700px;
+    width: 50%;
 }
-/*tortue*/
+/*poisson DEUX*/
 .poisson-deux{
     position: fixed;
-    width: 40%;
+    width: 50%;
     margin-left: 500px;
     margin-top: 600px;
 }
-/*poissons devant*/
+/*poisson TROIS*/
 .poisson-trois{
     position: fixed;
-    margin-left: 200px;
+    margin-left: 900px;
     width: 70%;
-    margin-top: 500px;
+    margin-top: 450px;
+    -webkit-transform: rotate(260deg);
+    -moz-transform: rotate(260deg);
+    -o-transform: rotate(260deg);
+    -ms-transform: rotate(260deg);
+    transform: rotate(260deg);
 }
+/*poisson QUATRE*/
 .poisson-quatre{
     position: fixed;
     margin-left: 0px;
-    margin-top: 100px;
-    width: 30%;
-    margin-left: 1px;
+    margin-top: 600px;
+    width: 50%;
+    margin-left: 300px;
 }
-/*poissons coté*/
+/*poissons CINQ*/
 .poisson-cinq{
     position: fixed;
     margin-left: 900px;
@@ -39,12 +47,86 @@ body{
     -ms-transform: rotate(260deg);
     transform: rotate(260deg);
 }
+/*poissons SIX*/
 .poisson-six{
     position: fixed;
-    margin-left: 1000px;
-    margin-top: 400px; 
+    margin-left: 200px;
+    margin-top: 450px; 
 }
+/*poissons SEPT*/
 .poisson-sept{
     position: fixed;
     margin-left: 0px;
+    margin-top: 250px;
+    width: 20%; 
+}
+/*poissons HUIT*/
+.poisson-huit{
+    position: fixed;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 450px; 
+}
+/*poissons NEUF*/
+.poisson-neuf{
+    position: fixed;
+    margin-left: 1100px;
+    margin-top: 300px; 
+    width: 30%;
+    -webkit-transform: rotate(260deg);
+    -moz-transform: rotate(260deg);
+    -o-transform: rotate(260deg);
+    -ms-transform: rotate(260deg);
+    transform: rotate(260deg);
+}
+/*poissons DIX*/
+.poisson-dix{
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 300px; 
+    -webkit-transform: rotate(260deg);
+    -moz-transform: rotate(260deg);
+    -o-transform: rotate(260deg);
+    -ms-transform: rotate(260deg);
+    transform: rotate(260deg);
+}
+/*poissons ONZE*/
+.poisson-onze{
+    position: fixed;
+    margin-left: 1350px;
+    margin-top: 350px; 
+    width: 20%;
+
+}
+/*poissons DOUZE*/
+.poisson-douze{
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 700px; 
+    margin-left: 800px;
+    width: 20%;
+}
+/*poissons TREIZE*/
+.poisson-treize{
+    position: fixed;
+    margin-left: -200px;
+    margin-top: 200px; 
+    width: 30%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+/*poissons QUATORZE*/
+.poisson-quatorze{
+    position: fixed;
+    width: 30%;
+    margin-left: 0px;
+    margin-top: 300px; 
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }

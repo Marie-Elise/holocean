@@ -110,15 +110,123 @@ function FunctionPoissonSix() {
 
 //function showPoissonSept
 function showPoissonSept() {
-    socket.emit('showPoissonSept()')
+    socket.emit('showPoissonSept')
     console.log('emitted')
 }
-socket.on('showPoissonSept()', function() {
+socket.on('showPoissonSept', function() {
     console.log('received emitted event')
     FunctionPoissonSept()
 })
 function FunctionPoissonSept() {
     var x = document.getElementById("poissonSept");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+//function showPoissonHuit
+function showPoissonHuit() {
+    socket.emit('showPoissonHuit')
+    console.log('emitted')
+}
+socket.on('showPoissonHuit', function() {
+    console.log('received emitted event')
+    FunctionPoissonHuit()
+})
+function FunctionPoissonHuit() {
+    var x = document.getElementById("poissonHuit");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+//function showPoissonNeuf
+function showPoissonNeuf() {
+    socket.emit('showPoissonNeuf')
+    console.log('emitted')
+}
+socket.on('showPoissonNeuf', function() {
+    console.log('received emitted event')
+    FunctionPoissonNeuf()
+})
+function FunctionPoissonNeuf() {
+    var x = document.getElementById("poissonNeuf");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+//function showPoissonOnze
+function showPoissonOnze() {
+    socket.emit('showPoissonOnze')
+    console.log('emitted')
+}
+socket.on('showPoissonOnze', function() {
+    console.log('received emitted event')
+    FunctionPoissonOnze()
+})
+function FunctionPoissonOnze() {
+    var x = document.getElementById("poissonOnze");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+//function showPoissonDouze
+function showPoissonDouze() {
+    socket.emit('showPoissonDouze')
+    console.log('emitted')
+}
+socket.on('showPoissonDouze', function() {
+    console.log('received emitted event')
+    FunctionPoissonDouze()
+})
+function FunctionPoissonDouze() {
+    var x = document.getElementById("poissonDouze");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+//function showPoissonTreize
+function showPoissonTreize() {
+    socket.emit('showPoissonTreize')
+    console.log('emitted')
+}
+socket.on('showPoissonTreize', function() {
+    console.log('received emitted event')
+    FunctionPoissonTreize()
+})
+function FunctionPoissonTreize() {
+    var x = document.getElementById("poissonTreize");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+//function showPoissonQuatorze
+function showPoissonQuatorze() {
+    socket.emit('showPoissonQuatorze')
+    console.log('emitted')
+}
+socket.on('showPoissonQuatorze', function() {
+    console.log('received emitted event')
+    FunctionPoissonQuatorze()
+})
+function FunctionPoissonQuatorze() {
+    var x = document.getElementById("poissonQuatorze");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {

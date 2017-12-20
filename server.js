@@ -60,5 +60,23 @@ io.on('connection', function (socket) {
     socket.on('showPoissonSept', function() {
         socket.broadcast.emit('showPoissonSept');
     })
+    socket.on('showPoissonHuit', function() {
+        socket.broadcast.emit('showPoissonHuit');
+    })
+    socket.on('showPoissonNeuf', function() {
+        socket.broadcast.emit('showPoissonNeuf');
+    })
+    socket.on('showPoissonOnze', function() {
+        socket.broadcast.emit('showPoissonOnze');
+    })
+    socket.on('showPoissonDouze', function() {
+        socket.broadcast.emit('showPoissonDouze');
+    })
+    socket.on('showPoissonTreize', function() {
+        socket.broadcast.emit('showPoissonTreize');
+    })
+    socket.on('showPoissonQuatorze', function() {
+        socket.broadcast.emit('showPoissonQuatorze');
+    })
 });
 
