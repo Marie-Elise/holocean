@@ -17,6 +17,26 @@ a{
 .left-arrow{
     margin-top: 20px
 }
+.text-rare{
+    font-size: 13px;
+    font-weight: 900;
+    color:#0288D1;
+}
+.text-legendaire{
+    font-size: 13px;
+    font-weight: 900;
+    color:#F9A825;
+}
+.text-commun{
+    font-size: 13px;
+    font-weight: 900;
+    color:#424242;
+}
+.text-epique{
+    font-size: 13px;
+    font-weight: 900;
+    color:#7E57C2;
+}
   
 /* Profile sidebar */
 .profile-userpic svg {
@@ -30,7 +50,7 @@ a{
 }
   
 .profile-usertitle-name {
-    color: rgba(24, 103, 194, .81);
+    color: #006DF0;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 7px;
