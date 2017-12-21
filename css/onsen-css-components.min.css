@@ -3078,7 +3078,6 @@ ons-range[disabled] .range {
     -webkit-overflow-scrolling: touch;
     border-bottom: 1px solid #ccc;
     overflow: hidden;
-    margin-top: -20px;
 }
 
 .list__item {
