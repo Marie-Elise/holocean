@@ -1,3 +1,6 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
 a{
     text-decoration: none;
     color: #000000;
@@ -23,44 +26,42 @@ a{
     margin-bottom: 20px;
 }
 .tabbar {
-    display: table;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    white-space: nowrap;
-    margin: 0;
-    padding: 0;
-    height: 49px;
-    background-color: #fff;
-    border-top: 1px solid #ccc;
-    width: 100%;
-}
-.text-aquarium{
-  color: #006DF0;
+  display: table;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  height: 49px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  width: 100%;
 }
 .tabbar__item {
-    position: relative;
-    display: table-cell;
-    width: auto;
+  position: relative;
+  display: table-cell;
+  width: auto;
 }
 .tabbar__button {
-    font-weight: 400;
-    border: none;
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    padding: 0;
-    height: 49px;
-    letter-spacing: 0;
-    color: #999;
-    vertical-align: top;
-    background-color: transparent;
-    border-top: none;
-    width: 100%;
-    font-weight: 400;
-    line-height: 49px;
+  font-weight: 400;
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+  height: 49px;
+  letter-spacing: 0;
+  color: #999;
+  vertical-align: top;
+  background-color: transparent;
+  border-top: none;
+  width: 100%;
+  font-weight: 400;
+  line-height: 49px;
 }
+
 
 /*footer menu*/
 .footer-menu {
