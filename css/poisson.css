@@ -32,7 +32,7 @@ body{
     position: fixed;
     margin-left: 0px;
     margin-top: 600px;
-    width: 50%;
+    width: 90%;
     margin-left: 300px;
 }
 /*poissons CINQ*/
@@ -65,7 +65,12 @@ body{
     position: fixed;
     width: 20%;
     margin-left: 0px;
-    margin-top: 450px; 
+    margin-top: 450px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); 
 }
 /*poissons NEUF*/
 .poisson-neuf{
