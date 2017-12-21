@@ -3070,7 +3070,7 @@ ons-range[disabled] .range {
     font-weight: 400;
     font-size: 17px;
     padding: 0;
-    margin: 0;
+    margin: -5px;
     list-style-type: none;
     text-align: left;
     overflow: auto;
