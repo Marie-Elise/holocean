@@ -3,6 +3,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 .text-boutique{
     color: #006DF0;
@@ -20,39 +21,7 @@ a{
     width: 35%;
     margin-top: 10px;
 }
-.button-poisson{
-    margin: 20px;
-    margin-top: 25px;
-    border: 1px solid darkblue;
-    padding: 10px 25px;
-    border-radius: 100px;
-    font-size: 16px;
-    text-align: center;
-    background: darkblue;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-    -webkit-transform: scale(1,1);
-    transform: scale(1,1);
-    text-decoration: none;
-    display: inline-block;
-}
-.button-poisson:hover {
-    background: darkblue;
-    color: #fff;
-    cursor: pointer;
-    border: 1px solid #darkblue;
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
-}
-.svg-poisson{
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-    -webkit-transform: scale(1,1);
-}
-.svg-poisson:hover{
-    -webkit-transform: scale(1.15, 1.15);
-    transform: scale(1.15, 1.15);
-}
+
 .tabbar {
     display: table;
     position: fixed;

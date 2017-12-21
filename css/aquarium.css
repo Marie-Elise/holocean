@@ -1,8 +1,9 @@
 a{
     text-decoration: none;
+    color: #000000;
 }
-.home{
-    overflow: auto;
+.aquarium-page{
+  margin-bottom: 100Px;
 }
 .toolbar{
     height: 70px;
