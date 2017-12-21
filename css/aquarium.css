@@ -6,6 +6,9 @@ a{
     text-decoration: none;
     color: #000000;
 }
+.aquarium-page{
+    margin-top: 50px;
+}
 .text-rare{
   font-size: 15px;
   font-weight: 900;
@@ -29,9 +32,6 @@ a{
 .fiche-clown{
     color: #000000;
 }
-.aquarium-page{
-  margin-bottom: 100Px;
-}
 .toolbar{
     height: 70px;
 }
@@ -42,8 +42,8 @@ a{
     color:#006DF0;
 }
 .logo-aquarium{
-    width: 35%;
-    margin-top: 10px;
+    width: 80%;
+    margin-top: -15px;
 }
 .search{
     margin-top: 20px;

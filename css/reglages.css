@@ -1,7 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+.reglage-page{
+    margin-top: 70px;
+}
 .title-aquarium{
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
