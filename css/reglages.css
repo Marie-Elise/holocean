@@ -8,11 +8,21 @@ body{
     font-size: 25px;
     color: #006DF0;
 }
-
+.title-compte{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #006DF0;
+}
+.title-general{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #006DF0;
+}
 .text-reglages{
     color: #006DF0;
 }
-
 /* Tabbar */
 .tabbar {
     display: table;
