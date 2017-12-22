@@ -105,9 +105,8 @@ body{
 /*poissons DOUZE*/
 .poisson-douze{
     position: fixed;
-    margin-left: 0px;
-    margin-top: 700px; 
-    margin-left: 800px;
+    margin-top: 500px; 
+    margin-left: 200px;
     width: 20%;
 }
 /*poissons TREIZE*/
